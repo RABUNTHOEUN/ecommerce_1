@@ -1,0 +1,5 @@
+.gridLeft{
+    border-right: 1px #dcdcdc solid;
+    padding-right: 10px;
+    min-height: 100vh;
+}

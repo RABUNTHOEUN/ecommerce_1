@@ -1,0 +1,22 @@
+# Insert 
+    INSERT INTO customer (firstname,lastname,gender,username,password) VALUES ('Nara','So','0','nara@gmai.com','123456')
+# Select
+    SELECT * FROM table_name
+    SELECT col1, col2,... FROM table_name
+
+    SELECT * FROM customer;
+
+    - WHERE
+    - AND , OR,
+    - NULL, NOT NULL
+    - LIMIT
+# Delete
+    - DELETE FROM table_name WHERE condition;
+    eg. DELETE FROM customer WHERE customer_id = 2;
+# Update
+    - UPDATE table_name SET col1 = value, col2=value, ... WHERE condition;
+    eg. UPDATE customer SET firstname = 'Boro' , lastname = 'Solo' WHERE customer_id = 1
+
+SQL CRUD : C create, R read, U update, Delete
+
+# Join 

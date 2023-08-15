@@ -1,0 +1,36 @@
+.header {
+    /* height: 50px; */
+    background-color: wheat;
+    padding: 10px;
+}
+
+.rowHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rowItemMenu{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemMenu{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.itemMenu:hover{
+    border-bottom: 2px solid black;
+}
+
+.body{
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.txtHeader{
+    font-size: 22px;
+    font-weight: bold;
+}

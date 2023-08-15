@@ -1,0 +1,27 @@
+
+# Customer 
+    + geta-all
+        - url : /api/customer/get-all
+        - method : get
+    + get-one
+        - url : /api/customer/get-one/:id
+        - method : get
+    + create
+        - url : /api/customer/create
+        - method : post
+        - body :{
+            "firstname" : "Miss",
+            "lastname" : "Lyly",
+            "gender" : 1,
+            "username" : "lyly@gmail.com",
+            "password" : "123456"
+        }
+    + update
+    + remove
+
+# Product
+    + get-all
+    + get-one
+    + create
+    + update
+    + remove

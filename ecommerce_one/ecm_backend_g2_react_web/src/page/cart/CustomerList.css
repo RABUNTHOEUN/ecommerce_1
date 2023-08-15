@@ -1,0 +1,14 @@
+.rowItem {
+    padding: 10px 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+
+}
+
+.rowItemActived{
+    padding: 10px 10px;
+    border-bottom: 1px solid #eee;
+    background-color: rgb(191, 243, 191);
+    cursor: pointer;
+
+}

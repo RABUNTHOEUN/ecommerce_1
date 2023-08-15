@@ -1,0 +1,31 @@
+
+# install xampp or wampp
+    - view phpmyaddmin (localhost/phpmyaddmin)
+    - create a database
+    - create a table (customer table)
+        + customer 
+            customer_id PK 
+            firstname 
+            lastname 
+            gender
+            username
+            password 
+            create_at
+    - Test SQL in PHP myaddmin 
+        - SQL create
+        - SQL select 
+        - SQL delete 
+        - SQL Update 
+        reference : https://www.w3schools.com/sql/sql_delete.asp
+    - In nodejs 
+        - install mysql 
+        - create config database 
+        - get all data from table customer 
+
+# Home Node + Mysql Build CRUD API
+    - getlist
+    - getone
+    - create
+    - Update
+    - remove
+    

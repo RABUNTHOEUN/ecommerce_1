@@ -1,0 +1,15 @@
+.login-form{
+    width: 400px;
+    margin: auto;
+    border: 1px solid rgb(225, 220, 220);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.txt-login{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
